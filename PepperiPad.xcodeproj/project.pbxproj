@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834121471548FEDD0076824C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834121461548FEDD0076824C /* UIKit.framework */; };
+		834121491548FEDD0076824C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834121481548FEDD0076824C /* Foundation.framework */; };
+		8341214B1548FEDD0076824C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8341214A1548FEDD0076824C /* CoreGraphics.framework */; };
+		834121511548FEDD0076824C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8341214F1548FEDD0076824C /* InfoPlist.strings */; };
+		834121531548FEDD0076824C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 834121521548FEDD0076824C /* main.m */; };
+		834121571548FEDD0076824C /* pepperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834121561548FEDD0076824C /* pepperAppDelegate.m */; };
+		8341215A1548FEDD0076824C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834121581548FEDD0076824C /* MainStoryboard.storyboard */; };
+		8341215D1548FEDD0076824C /* pepperMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8341215C1548FEDD0076824C /* pepperMasterViewController.m */; };
+		834121601548FEDD0076824C /* pepperDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8341215F1548FEDD0076824C /* pepperDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		834121421548FEDD0076824C /* PepperiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PepperiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834121461548FEDD0076824C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		834121481548FEDD0076824C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8341214A1548FEDD0076824C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8341214E1548FEDD0076824C /* PepperiPad-Info.plist */ = {isa = PBXFileReference; path = "PepperiPad-Info.plist"; sourceTree = "<group>"; };
+		834121501548FEDD0076824C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		834121521548FEDD0076824C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		834121541548FEDD0076824C /* PepperiPad-Prefix.pch */ = {isa = PBXFileReference; path = "PepperiPad-Prefix.pch"; sourceTree = "<group>"; };
+		834121551548FEDD0076824C /* pepperAppDelegate.h */ = {isa = PBXFileReference; path = pepperAppDelegate.h; sourceTree = "<group>"; };
+		834121561548FEDD0076824C /* pepperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperAppDelegate.m; sourceTree = "<group>"; };
+		834121591548FEDD0076824C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8341215B1548FEDD0076824C /* pepperMasterViewController.h */ = {isa = PBXFileReference; path = pepperMasterViewController.h; sourceTree = "<group>"; };
+		8341215C1548FEDD0076824C /* pepperMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperMasterViewController.m; sourceTree = "<group>"; };
+		8341215E1548FEDD0076824C /* pepperDetailViewController.h */ = {isa = PBXFileReference; path = pepperDetailViewController.h; sourceTree = "<group>"; };
+		8341215F1548FEDD0076824C /* pepperDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8341213F1548FEDD0076824C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834121471548FEDD0076824C /* UIKit.framework in Frameworks */,
+				834121491548FEDD0076824C /* Foundation.framework in Frameworks */,
+				8341214B1548FEDD0076824C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834121371548FEDD0076824C = {
+			isa = PBXGroup;
+			children = (
+				8341214C1548FEDD0076824C /* PepperiPad */,
+				834121451548FEDD0076824C /* Frameworks */,
+				834121431548FEDD0076824C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834121431548FEDD0076824C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834121421548FEDD0076824C /* PepperiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834121451548FEDD0076824C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834121461548FEDD0076824C /* UIKit.framework */,
+				834121481548FEDD0076824C /* Foundation.framework */,
+				8341214A1548FEDD0076824C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8341214C1548FEDD0076824C /* PepperiPad */ = {
+			isa = PBXGroup;
+			children = (
+				834121551548FEDD0076824C /* pepperAppDelegate.h */,
+				834121561548FEDD0076824C /* pepperAppDelegate.m */,
+				834121581548FEDD0076824C /* MainStoryboard.storyboard */,
+				8341215B1548FEDD0076824C /* pepperMasterViewController.h */,
+				8341215C1548FEDD0076824C /* pepperMasterViewController.m */,
+				8341215E1548FEDD0076824C /* pepperDetailViewController.h */,
+				8341215F1548FEDD0076824C /* pepperDetailViewController.m */,
+				8341214D1548FEDD0076824C /* Supporting Files */,
+			);
+			path = PepperiPad;
+			sourceTree = "<group>";
+		};
+		8341214D1548FEDD0076824C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8341214E1548FEDD0076824C /* PepperiPad-Info.plist */,
+				8341214F1548FEDD0076824C /* InfoPlist.strings */,
+				834121521548FEDD0076824C /* main.m */,
+				834121541548FEDD0076824C /* PepperiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834121411548FEDD0076824C /* PepperiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834121631548FEDD0076824C /* Build configuration list for PBXNativeTarget "PepperiPad" */;
+			buildPhases = (
+				8341213E1548FEDD0076824C /* Sources */,
+				8341213F1548FEDD0076824C /* Frameworks */,
+				834121401548FEDD0076824C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PepperiPad;
+			productName = PepperiPad;
+			productReference = 834121421548FEDD0076824C /* PepperiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834121391548FEDD0076824C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8341213C1548FEDD0076824C /* Build configuration list for PBXProject "PepperiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 834121371548FEDD0076824C;
+			productRefGroup = 834121431548FEDD0076824C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834121411548FEDD0076824C /* PepperiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834121401548FEDD0076824C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834121511548FEDD0076824C /* InfoPlist.strings in Resources */,
+				8341215A1548FEDD0076824C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8341213E1548FEDD0076824C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834121531548FEDD0076824C /* main.m in Sources */,
+				834121571548FEDD0076824C /* pepperAppDelegate.m in Sources */,
+				8341215D1548FEDD0076824C /* pepperMasterViewController.m in Sources */,
+				834121601548FEDD0076824C /* pepperDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8341214F1548FEDD0076824C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834121501548FEDD0076824C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		834121581548FEDD0076824C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834121591548FEDD0076824C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		834121611548FEDD0076824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		834121621548FEDD0076824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834121641548FEDD0076824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PepperiPad/PepperiPad-Prefix.pch";
+				INFOPLIST_FILE = "PepperiPad/PepperiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		834121651548FEDD0076824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PepperiPad/PepperiPad-Prefix.pch";
+				INFOPLIST_FILE = "PepperiPad/PepperiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8341213C1548FEDD0076824C /* Build configuration list for PBXProject "PepperiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834121611548FEDD0076824C /* Debug */,
+				834121621548FEDD0076824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834121631548FEDD0076824C /* Build configuration list for PBXNativeTarget "PepperiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834121641548FEDD0076824C /* Debug */,
+				834121651548FEDD0076824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834121391548FEDD0076824C /* Project object */;
+}
