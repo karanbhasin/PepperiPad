@@ -16,7 +16,7 @@
 
 - (void)awakeFromNib
 {
-    self.clearsSelectionOnViewWillAppear = NO;
+    //self.clearsSelectionOnViewWillAppear = NO;
     self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
     [super awakeFromNib];
 }
@@ -34,7 +34,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.detailViewController = (pepperDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+    //[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
 }
 
 - (void)viewDidUnload

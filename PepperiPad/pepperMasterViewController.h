@@ -10,8 +10,8 @@
 
 @class pepperDetailViewController;
 
-@interface pepperMasterViewController : UITableViewController
-
+@interface pepperMasterViewController : UITabBarController<UISplitViewControllerDelegate>
 @property (strong, nonatomic) pepperDetailViewController *detailViewController;
 
 @end
+

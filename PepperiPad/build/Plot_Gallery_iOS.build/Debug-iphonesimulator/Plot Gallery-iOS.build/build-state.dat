@@ -1,0 +1,717 @@
+TPlot Gallery-iOS
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist" Plot_Gallery-Info.plist
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib
+cCpResource src/ios/Icon.png "../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png"
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib
+cCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib
+cProcessPCH /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth Plot_Gallery_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F20BA390000000000000110
+t1327544889
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F28F0000000000001534
+t1316156047
+s5428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E78066A0000000000000BCB
+t1316488810
+s3019
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/Availability.h
+c000000004E5C62D90000000000001B38
+t1314677465
+s6968
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app.dSYM
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/DetailView-iPad.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/DetailView.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/MainWindow-iPad.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/MainWindow.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/PkgInfo
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Plot Gallery
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/RootViewController.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/ThemeTableViewController.nib
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/AxisDemo.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/CandlestickPlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ColoredBarChart.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/CompositePlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ControlChart.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DatePlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DetailViewController.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DonutChart.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/GradientScatterPlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/LabelingPolicyDemo.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/LineCapDemo.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/OHLCPlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/Plot Gallery.LinkFileList
+c000000004F9C0EE1000000000000126B
+t1335627489
+s4715
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGalleryAppDelegate-iPhone.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotSpaceDemo.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/Plot_GalleryAppDelegate.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RangePlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RealTimePlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SteppedScatterPlot.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ThemeTableViewController.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/VerticalBarChart.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/Plot_Gallery_Prefix.pch
+c000000004CE1D4EB000000000000014A
+t1289868523
+s330
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/DetailViewController.m
+c000000004F4118B40000000000001513
+t1329666228
+s5395
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/Icon.png
+c000000004ED454600000000000001EB4
+t1322538080
+s7860
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/RootViewController.m
+c000000004F4118B40000000000000937
+t1329666228
+s2359
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.m
+c000000004F4118B400000000000008AA
+t1329666228
+s2218
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib
+c000000004CE1D4EB0000000000001731
+t1289868523
+s5937
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib
+c000000004CE1D4EB0000000000006894
+t1289868523
+s26772
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib
+c000000004CE1D4EB0000000000007838
+t1289868523
+s30776
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/Plot_GalleryAppDelegate.m
+c000000004F4118B4000000000000065D
+t1329666228
+s1629
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib
+c000000004CE1D4EB0000000000005604
+t1289868523
+s22020
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib
+c000000004CE1D4EB00000000000074CF
+t1289868523
+s29903
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/PlotGalleryAppDelegate-iPhone.m
+c000000004F4118B400000000000002E3
+t1329666228
+s739
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib
+c000000004CE1D4EB00000000000059E7
+t1289868523
+s23015
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/main.m
+c000000004F4118B40000000000000158
+t1329666228
+s344
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/AxisDemo.m
+c000000004F4118B500000000000014D7
+t1329666229
+s5335
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CandlestickPlot.m
+c000000004F4118B50000000000001E8E
+t1329666229
+s7822
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ColoredBarChart.m
+c000000004F4118B50000000000001893
+t1329666229
+s6291
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CompositePlot.m
+c000000004F4118B5000000000000444C
+t1329666229
+s17484
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ControlChart.m
+c000000004F4118B50000000000002042
+t1329666229
+s8258
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DatePlot.m
+c000000004F4118B6000000000000109D
+t1329666230
+s4253
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DonutChart.m
+c000000004F4118B6000000000000122A
+t1329666230
+s4650
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/GradientScatterPlot.m
+c000000004F4118B600000000000020C4
+t1329666230
+s8388
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LabelingPolicyDemo.m
+c000000004F4118B60000000000001FA1
+t1329666230
+s8097
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LineCapDemo.m
+c000000004F4118B600000000000009B4
+t1329666230
+s2484
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/OHLCPlot.m
+c000000004F4118B60000000000001C58
+t1329666230
+s7256
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/PlotSpaceDemo.m
+c000000004F4118B60000000000001AD6
+t1329666230
+s6870
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RangePlot.m
+c000000004F4118B70000000000001A10
+t1329666231
+s6672
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RealTimePlot.m
+c000000004F4118B700000000000016D5
+t1329666231
+s5845
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m
+c000000004F4118B70000000000001355
+t1329666231
+s4949
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m
+c000000004F4118B7000000000000220D
+t1329666231
+s8717
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SteppedScatterPlot.m
+c000000004F4118B70000000000000F23
+t1329666231
+s3875
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/VerticalBarChart.m
+c000000004F4118B70000000000002B4D
+t1329666231
+s11085
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m
+c000000004F4118B70000000000000548
+t1329666231
+s1352
+
+N/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m
+c000000004F4118B70000000000001BB3
+t1329666231
+s7091
+
+N/var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth
+t2
+s0
+
+NPlot_Gallery-Info.plist
+c000000004CE1D4EB00000000000004EB
+t1289868523
+s1259
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/DetailViewController.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/RootViewController.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/Plot_GalleryAppDelegate.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/PlotGalleryAppDelegate-iPhone.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/main.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/AxisDemo.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CandlestickPlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ColoredBarChart.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CompositePlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ControlChart.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DatePlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DonutChart.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/GradientScatterPlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LabelingPolicyDemo.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LineCapDemo.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/OHLCPlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/PlotSpaceDemo.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RangePlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RealTimePlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SteppedScatterPlot.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/VerticalBarChart.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m
+r0
+
+CBuild AST from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies27dd4261464cb541^dc819261464cb541^--1(21%IDEActivityLogMessage2@84"Missing dependency target "CorePlot-CocoaTouch (from CorePlot-CocoaTouch.xcodeproj)"-357320289#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"CB03F753-AE21-4EAB-BFF9-529B1FD0A8CB-
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/AxisDemo.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/AxisDemo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/CandlestickPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CandlestickPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ColoredBarChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ColoredBarChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/CompositePlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/CompositePlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ControlChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/ControlChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DatePlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DatePlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DetailViewController.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/DonutChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/DonutChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/GradientScatterPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/GradientScatterPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/LabelingPolicyDemo.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LabelingPolicyDemo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/LineCapDemo.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/LineCapDemo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/OHLCPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/OHLCPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357320292.222220
+e357320292.488603
+r0
+xCompileC
+x../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m:9:
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:
+o/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2]
+o #import "CorePlot-CocoaTouch.h"
+o         ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.mae113964464cb541^38117d64464cb541^-439"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m:9:/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2] #import "CorePlot-CocoaTouch.h"         ^1 error generated.1(21%IDEActivityLogMessage2@38"'CorePlot-CocoaTouch.h' file not found-357320292#228#148#3(36%IDEActivityLogHeaderInclusionMessage3@113"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:-357320292#0#114#-0#-23%DVTTextDocumentLocation4@104"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@113"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m:9:-357320292#114#114#-0#-4@104"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@127"'CorePlot-CocoaTouch.h' file not found in /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h-357320292#18446744073709551615#0#-0#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#---2#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation5@104"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m0000000000000000^3389"CompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o" src/shared/PlotGallery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-generated-files.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-own-target-headers.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-all-target-headers.hmap" -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-project-headers.hmap" -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/include -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources/i386" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources" -F/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator -include /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch -MMD -MT dependencies -MF "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.d" -c /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.m -o "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGallery.o"36"95472992-EDF3-46FA-A9B8-52AC244ED547-
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotGalleryAppDelegate-iPhone.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/PlotGalleryAppDelegate-iPhone.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357320292.222189
+e357320292.488919
+r0
+xCompileC
+x../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m:9:
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:
+o/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2]
+o #import "CorePlot-CocoaTouch.h"
+o         ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.mc7133964464cb541^921f7d64464cb541^-436"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m:9:/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2] #import "CorePlot-CocoaTouch.h"         ^1 error generated.1(21%IDEActivityLogMessage2@38"'CorePlot-CocoaTouch.h' file not found-357320292#225#148#3(36%IDEActivityLogHeaderInclusionMessage3@113"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h:9:-357320292#0#114#-0#-23%DVTTextDocumentLocation4@104"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotGallery.h0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m:9:-357320292#114#111#-0#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@127"'CorePlot-CocoaTouch.h' file not found in /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h-357320292#18446744073709551615#0#-0#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#---2#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation5@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m0000000000000000^3374"CompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o" src/shared/PlotItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-generated-files.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-own-target-headers.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-all-target-headers.hmap" -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-project-headers.hmap" -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/include -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources/i386" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources" -F/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator -include /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch -MMD -MT dependencies -MF "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.d" -c /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.m -o "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotItem.o"36"0D6C4C16-C569-43AD-8F6C-DCE5DBC6475D-
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/PlotSpaceDemo.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/PlotSpaceDemo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/Plot_GalleryAppDelegate.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/Plot_GalleryAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RangePlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RangePlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RealTimePlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/RealTimePlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/RootViewController.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357320292.222209
+e357320292.388541
+r0
+xCompileC
+x../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m:9:
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.h:9:
+o/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2]
+o #import "CorePlot-CocoaTouch.h"
+o         ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m2b143964464cb541^fa426864464cb541^-443"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.h:9:In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m:9:/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2] #import "CorePlot-CocoaTouch.h"         ^1 error generated.1(21%IDEActivityLogMessage2@38"'CorePlot-CocoaTouch.h' file not found-357320292#232#148#3(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.h:9:-357320292#0#116#-0#-23%DVTTextDocumentLocation4@106"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.h0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@115"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m:9:-357320292#116#116#-0#-4@106"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@127"'CorePlot-CocoaTouch.h' file not found in /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h-357320292#18446744073709551615#0#-0#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#---2#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation5@106"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m0000000000000000^3402"CompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o" src/plots/SimplePieChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-generated-files.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-own-target-headers.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-all-target-headers.hmap" -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-project-headers.hmap" -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/include -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources/i386" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources" -F/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator -include /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch -MMD -MT dependencies -MF "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.d" -c /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimplePieChart.m -o "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimplePieChart.o"36"4317FA7B-FE13-4A1D-91B6-540B29A6D6C3-
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357320292.222304
+e357320292.488921
+r0
+xCompileC
+x../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m:9:
+oIn file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.h:9:
+o/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2]
+o #import "CorePlot-CocoaTouch.h"
+o         ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m2b143964464cb541^492c7d64464cb541^-449"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.h:9:In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m:9:/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h:12:9: fatal error: 'CorePlot-CocoaTouch.h' file not found [2] #import "CorePlot-CocoaTouch.h"         ^1 error generated.1(21%IDEActivityLogMessage2@38"'CorePlot-CocoaTouch.h' file not found-357320292#238#148#3(36%IDEActivityLogHeaderInclusionMessage3@118"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.h:9:-357320292#0#119#-0#-23%DVTTextDocumentLocation4@109"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.h0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@118"In file included from /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m:9:-357320292#119#119#-0#-4@109"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@127"'CorePlot-CocoaTouch.h' file not found in /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h-357320292#18446744073709551615#0#-0#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#---2#-4@101"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/shared/PlotItem.h0000000000000000^11#8#11#8#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation5@109"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m0000000000000000^3417"CompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o" src/plots/SimpleScatterPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-generated-files.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-own-target-headers.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-all-target-headers.hmap" -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-project-headers.hmap" -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/include -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources/i386" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources" -F/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator -include /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch -MMD -MT dependencies -MF "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.d" -c /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SimpleScatterPlot.m -o "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SimpleScatterPlot.o"36"87362E91-0FB6-4C47-AF12-F65403C69CE6-
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/SteppedScatterPlot.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/SteppedScatterPlot.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/ThemeTableViewController.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/VerticalBarChart.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/plots/VerticalBarChart.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Objects-normal/i386/main.o" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib
+s357320289.588237
+e357320290.890853
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib94a59661464cb541^2712e462464cb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib0000000000000000^864"CompileXIB src/ios/ThemeTableViewController.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/ThemeTableViewController.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ThemeTableViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"E0509AA0-01C5-477D-9064-D5BA231962AE-
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib
+s357320290.886676
+e357320291.698386
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib2a1ee362464cb541^dbdeb263464cb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib0000000000000000^847"CompileXIB src/ios/ipad/DetailView-iPad.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/DetailView-iPad.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/DetailView-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"4600C196-2FC2-42C8-85D7-9A69D17BD8DD-
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib
+s357320289.588651
+e357320290.886824
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib50c89661464cb541^bb0ce362464cb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib0000000000000000^847"CompileXIB src/ios/ipad/MainWindow-iPad.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/MainWindow-iPad.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/ipad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"69FD46B2-CDEC-4417-8F42-437B3D59C2D0-
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib
+s357320290.888086
+e357320291.698389
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xibe17be362464cb541^9aceb263464cb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib0000000000000000^836"CompileXIB src/ios/iphone/DetailView.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/DetailView.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/DetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"26856C08-F860-4F5D-AD79-EC4539379800-
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib
+s357320289.588679
+e357320290.886819
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib7ac29661464cb541^db14e362464cb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib0000000000000000^836"CompileXIB src/ios/iphone/MainWindow.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/MainWindow.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"903B5BE8-2E59-4E3D-982A-8795E19A8290-
+
+CCompileXIB /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib
+s357320289.595578
+e357320290.882620
+r1
+xCompileXIB
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib5e9c9861464cb541^0af8e162464cb541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib0000000000000000^860"CompileXIB src/ios/iphone/RootViewController.xib    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/RootViewController.nib" /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/iphone/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"325A27DC-8D92-4A91-97D0-7DAEB1DB5F36-
+
+CCpResource src/ios/Icon.png "../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png"
+s357320289.588634
+e357320289.594365
+r1
+xCpResource
+xsrc/ios/Icon.png
+x../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png8aca9661464cb541^07299861464cb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot%20Gallery.app/Icon.png00f8f411dcffdf42^664"CpResource src/ios/Icon.png "../../build/Debug-iphonesimulator/Plot Gallery.app/Icon.png"    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/src/ios/Icon.png "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app"36"4E98D2EE-94B4-40B0-97C8-C7E4EB2D22B7-
+
+CGenerateDSYMFile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app.dSYM" "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Plot Gallery"
+r0
+
+CLd "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Plot Gallery" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist" Plot_Gallery-Info.plist
+s357320289.580834
+e357320289.585800
+r1
+xProcessInfoPlistFile
+x/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist
+xPlot_Gallery-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Process Plot_Gallery-Info.plist79cc9461464cb541^a5f79561464cb541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/Plot_Gallery-Info.plist0000000000000000^756"ProcessInfoPlistFile "../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist" Plot_Gallery-Info.plist    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Plot_Gallery-Info.plist -genpkginfo "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app/Info.plist"36"70739B21-B6BD-4557-A52A-811A006051A6-
+
+CProcessPCH /Users/jsingh/Library/Developer/Xcode/DerivedData/Plot_Gallery_iOS-fjfqxbuhvqquwbaqzbuvgdngtpce/Index/PrecompiledHeaders/Plot_Gallery_Prefix-dcjfeyrfjmflskbvuzrgztnfpucr_ast/Plot_Gallery_Prefix.pch.pth Plot_Gallery_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth Plot_Gallery_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357320291.701645
+e357320292.220747
+r1
+xProcessPCH
+x/var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth
+xPlot_Gallery_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile Plot_Gallery_Prefix.pch28b9b363464cb541^0e843864464cb541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/Plot_Gallery_Prefix.pch0000000000000000^3277"ProcessPCH /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth Plot_Gallery_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-generated-files.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-own-target-headers.hmap" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-all-target-headers.hmap" -iquote "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/Plot Gallery-project-headers.hmap" -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/include -I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources/i386" "-I/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Plot_Gallery_iOS.build/Debug-iphonesimulator/Plot Gallery-iOS.build/DerivedSources" -F/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator -c /Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/Plot_Gallery_Prefix.pch -o /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/Tj/TjtFy-igFsmL5c0d8o6rB5vyITU/-Caches-/com.apple.Xcode.2130596344/SharedPrecompiledHeaders/Plot_Gallery_Prefix-dggfkixlnbdaswaiszikwymmwsct/Plot_Gallery_Prefix.pch.d36"7745782B-4DCA-457A-A77B-BE8AA7E0C39B-
+
+CTouch "/Users/jsingh/code/iPad/PepperiPad/PepperiPad/Graphing/CorePlot/../../build/Debug-iphonesimulator/Plot Gallery.app"
+r0
+

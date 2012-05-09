@@ -7,11 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CorePlot-CocoaTouch.h"
+#import "TUTSimpleScatterPlot.h"
 
-@interface pepperDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface pepperDetailViewController : UIViewController <UISplitViewControllerDelegate>{
+    //UIView *hostingView;
+    IBOutlet CPTGraphHostingView *_graphHostingView;
+    TUTSimpleScatterPlot *_scatterPlot;
+}
+
+@property (nonatomic, retain) TUTSimpleScatterPlot *scatterPlot;
 
 @property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, retain) IBOutlet UIView *hostingView;
 
 @end
